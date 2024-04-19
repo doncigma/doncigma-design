@@ -1,5 +1,5 @@
 <template>
-  <div>
-    Bonjnour World!
-  </div>
+  <NuxtLayout>
+    <NuxtPage/>
+  </NuxtLayout>
 </template>
