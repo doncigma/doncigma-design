@@ -1,3 +1,5 @@
 <template>
-    Bonour from the pages file!
+    <div>
+        Bonour from the pages file!
+    </div>
 </template>
