@@ -4,9 +4,6 @@
             <div class="mb-6 text-lg">
                 <nuxt-link to="/" class="roboto">Bigfoot</nuxt-link>
             </div>
-            <Nav>
-
-            </Nav>
         </main>
     </footer>
 </template>

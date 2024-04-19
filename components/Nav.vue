@@ -1,3 +1,4 @@
+<template>
 <footer class="mt-28 bg-slate-50 dark:bg-black">
     <div
       class="container mx-auto flex flex-col items-start space-y-12 px-8 pb-8 pt-12 md:flex-row md:space-y-0 md:space-x-12 md:px-12"
@@ -145,3 +146,4 @@
     >
     </div>
   </footer>
+</template>
