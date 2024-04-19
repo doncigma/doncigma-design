@@ -1,5 +1,5 @@
 <template>
     <div class="text-xl">
-        Bonour from the pages file!
+        Everything's the same as everything else
     </div>
 </template>
