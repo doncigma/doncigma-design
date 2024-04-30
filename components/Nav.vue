@@ -7,12 +7,13 @@
         class="flex w-full flex-col space-y-4 text-center md:w-2/5 md:text-left"
       >
         <div class="w-full text-lg font-extrabold md:w-fit md:text-left">
-          <span class="text-violet-500">Unique</span>
-          <span class="dark:text-slate-400">Fund</span>
+          <span class="mexican-red-500">Doncigma</span>
+          <span class="dark:text-slate-400">Design</span>
         </div>
         <p class="text-sm text-slate-600">
-          UniqueFund provides access to fast and reliable financing solutions for
-          SMEs.
+          Doncigma Design provides custom web design and development services
+          to help you create a website that is unique, modern, and
+          most importantly, a representation of YOU. Put the best of you first, Doncigma Design.
         </p>
       </div>
       <div class="w-full text-center text-slate-600 md:w-1/5 md:text-left">
