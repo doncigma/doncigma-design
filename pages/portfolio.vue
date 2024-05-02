@@ -1,6 +1,5 @@
 <template>
     <div>
-      <Header />
       <div class="container">
         <section>
           <h2>About Me</h2>
@@ -22,7 +21,6 @@
           <p>Insert your hobbies here.</p>
         </section>
       </div>
-      <Footer />
     </div>
   </template>
   

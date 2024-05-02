@@ -1,5 +1,5 @@
 <template>
-    <footer class="mt-28 bg-slate-50 dark:bg-black">
+    <footer class="bg-slate-50 dark:bg-black">
       <div
         class="container mx-auto flex flex-col items-start space-y-12 px-8 pb-8 pt-12 md:flex-row md:space-y-0 md:space-x-12 md:px-12"
       >
@@ -10,6 +10,7 @@
             <span class="text-mexicanred-500">Doncigma</span>
             <span class="dark:text-slate-400">Design</span>
           </div>
+
           <p class="text-sm text-slate-600">
             Doncigma Design provides custom web design and development services
             to help you create a website that is unique, modern, and
@@ -145,6 +146,7 @@
           </ul>
         </div>
       </div>
+      
       <div
         class="container mx-auto border-t border-slate-200 p-8 text-center text-sm text-slate-600 dark:border-slate-900 md:flex-row md:px-12"
       >
