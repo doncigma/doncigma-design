@@ -1,5 +1,5 @@
 <template>
-    <header class="mexican-red-500 py-2">
+    <header class="red-900">
         <main class="container mx-5 flex flex-row justify-between">
             <div class="text-black text-lg font-bold">
                 

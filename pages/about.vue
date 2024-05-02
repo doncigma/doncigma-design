@@ -1,12 +1,11 @@
 <template>
     <div>
-      <Header />
       <div class="container">
         <section>
           <h2>About Me</h2>
           <p>Insert your general about me content here.</p>
         </section>
-        
+
         <section>
           <h2>Skills</h2>
           <ul>
@@ -22,7 +21,6 @@
           <p>Insert your hobbies here.</p>
         </section>
       </div>
-      <Footer />
     </div>
   </template>
   
