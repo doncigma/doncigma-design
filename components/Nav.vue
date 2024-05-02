@@ -7,7 +7,7 @@
         class="flex w-full flex-col space-y-4 text-center md:w-2/5 md:text-left"
       >
         <div class="w-full text-lg font-extrabold md:w-fit md:text-left">
-          <span class="mexican-red-500">Doncigma</span>
+          <span class="mexicanred-500">Doncigma</span>
           <span class="dark:text-slate-400">Design</span>
         </div>
         <p class="text-sm text-slate-600">
