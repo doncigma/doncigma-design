@@ -2,7 +2,7 @@
     <div>
       <div class="container">
         <section>
-          <h2>About Me</h2>
+          <h2>Resume</h2>
           <p>Insert your general about me content here.</p>
         </section>
         
