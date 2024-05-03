@@ -2,11 +2,11 @@
   <!-- Resume imgs -->
   <div class="flex flex-col items-center justify-center">
     <div>
-      <img src="/resume1.jpg"/>
+      <NuxtImg src="/resume1.jpg"/>
     </div>
 
     <div>
-      <NuxtImg src="/resume2.jpg" class="object-center"></NuxtImg>
+      <NuxtImg src="/resume2.jpg"/>
     </div>
   </div>
 </template>
