@@ -6,6 +6,10 @@
           <p>Insert your general about me content here.</p>
         </section>
 
+        <div>
+          <UButton to="/index" label="Home"></UButton>
+        </div>
+
         <section>
           <h2>Skills</h2>
           <ul>
