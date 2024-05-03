@@ -2,12 +2,7 @@
     <div>
       <div class="container">
         <section>
-          <h2>Resume</h2>
-          <p>Insert your general about me content here.</p>
-        </section>
-        
-        <section>
-          <NuxtImg src="/public/Resume-Apr24.pdf"></NuxtImg>
+          <NuxtImg src="/resume1.jpg"></NuxtImg>
         </section>
 
         <section>
