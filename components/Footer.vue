@@ -1,8 +1,11 @@
+
+import { NuxtLink } from '#build/components';
 <template>
     <footer class="bg-slate-50 dark:bg-black">
       <div
-        class="container mx-auto flex flex-col items-start space-y-12 px-8 pb-8 pt-12 md:flex-row md:space-y-0 md:space-x-12 md:px-12"
+        class="container mx-auto flex flex-col items-start space-y-6 px-8 pb-8 pt-10 md:flex-row md:space-y-0 md:space-x-12 md:px-12"
       >
+        <!-- Desc -->
         <div
           class="flex w-full flex-col space-y-4 text-center md:w-2/5 md:text-left"
         >
@@ -14,142 +17,59 @@
           <p class="text-sm text-slate-600">
             Doncigma Design provides custom web design and development services
             to help you create a website that is unique, modern, and
-            most importantly, a representation of YOU. Put the best of you first, Doncigma Design.
+            most importantly, a representation of you. Put the best of you first, Doncigma Design.
           </p>
         </div>
-
-        <div class="w-full text-center text-slate-600 md:w-1/5 md:text-left">
-          <div class="text-sm font-semibold">Company</div>
-          <ul class="text-sm">
-            <li class="pt-3">
-              <a
-                class="underline decoration-transparent underline-offset-4 transition hover:decoration-slate-700"
-                href="#"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                About
-              </a>
-            </li>
-            <li class="pt-3">
-              <a
-                class="underline decoration-transparent underline-offset-4 transition hover:decoration-slate-700"
-                href="#"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                Terms of Service
-              </a>
-            </li>
-            <li class="pt-3">
-              <a
-                class="underline decoration-transparent underline-offset-4 transition hover:decoration-slate-700"
-                href="#"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                Privacy Policy
-              </a>
-            </li>
-            <li class="pt-3">
-              <a
-                class="underline decoration-transparent underline-offset-4 transition hover:decoration-slate-700"
-                href="#"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                Cookie Policy
-              </a>
-            </li>
-          </ul>
-        </div>
-
-        <div class="w-full text-center text-slate-600 md:w-1/5 md:text-left">
-          <div class="text-sm font-semibold">Solutions</div>
-          <ul class="text-sm">
-            <li class="pt-3">
-              <a
-                class="underline decoration-transparent underline-offset-4 transition hover:decoration-slate-700"
-                href="#"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                Business Line of Credit
-              </a>
-            </li>
-            <li class="pt-3">
-              <a
-                class="underline decoration-transparent underline-offset-4 transition hover:decoration-slate-700"
-                href="#"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                SBA Loan
-              </a>
-            </li>
-            <li class="pt-3">
-              <a
-                class="underline decoration-transparent underline-offset-4 transition hover:decoration-slate-700"
-                href="#"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                Revenue Based Financing
-              </a>
-            </li>
-            <li class="pt-3">
-              <a
-                class="underline decoration-transparent underline-offset-4 transition hover:decoration-slate-700"
-                href="#"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                Invoice Factoring
-              </a>
-            </li>
-          </ul>
-        </div>
         
-        <div class="w-full text-center text-slate-600 md:w-1/5 md:text-left">
-          <div class="text-sm font-semibold text-slate-600">Partnership</div>
-          <ul class="text-sm">
-            <li class="pt-3">
-              <a
-                class="underline decoration-transparent underline-offset-4 transition hover:decoration-slate-700"
-                href="#"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                Loan Partner
-              </a>
+        <!-- Contacts -->
+        <div class="w-full text-center text-slate-400 md:w-1/5 md:text-left">
+          <div class="text-sm font-semibold pb-6">Resources</div>
+          <ul class="text-xs space-y-4">
+            <li>
+              <a>Email: ejdylan1029@gmail.com</a>
             </li>
-            <li class="pt-3">
-              <a
-                class="underline decoration-transparent underline-offset-4 transition hover:decoration-slate-700"
-                href="#"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                Affiliate
-              </a>
+            <li>
+              <a>Mobile: (425) 381-9344</a>
             </li>
-            <li class="pt-3">
-              <a
-                class="underline decoration-transparent underline-offset-4 transition hover:decoration-slate-700"
-                href="#"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                Brand Guideline
-              </a>
+            <li class="underline decoration-transparent underline-offset-4 transition hover:decoration-slate-700">
+              <NuxtLink to="https://www.linkedin.com/in/elijah-johnson-27b82a232/">
+                My LinkedIn</NuxtLink>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Goals -->
+        <div class="w-full text-center text-slate-400 md:w-1/5 md:text-left">
+          <div class="text-sm font-semibold pb-6">Goals</div>
+          <ul class="text-xs space-y-4">
+            <li>
+              <a>Career in software engineering</a>
+            </li>
+            <li>
+              <a>Go full remote van-life</a>
+            </li>
+            <li>
+              <a>Career in freelance web design</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Projects -->
+        <div class="w-full text-center text-slate-400 md:w-1/5 md:text-left">
+          <div class="text-sm font-semibold pb-6">Projects</div>
+          <ul class="text-xs space-y-4">
+            <li>
+              <a>C++ evolution simulator</a>
+            </li>
+            <li>
+              <a>Freelance portfolio website</a>
             </li>
           </ul>
         </div>
       </div>
       
-      <div
+      <div 
         class="container mx-auto border-t border-slate-200 p-8 text-center text-sm text-slate-600 dark:border-slate-900 md:flex-row md:px-12"
-      >
-      </div>
+      />
     </footer>
   </template>
