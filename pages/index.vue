@@ -5,12 +5,16 @@
         <p class="flex justify-center text-center text-5xl text-slate-400 font-semibold">Design.</p>
     </div>
 
-    <!-- Company description -->
-    <div class="flex flex-col md:flex-row md:items-center bg-gradient-to-l from-slate-900 to-mexicanred-500">
-        <div class="bg-blue-500">
-            <NuxtImg class="object-fill" src="/stock-red.jpg"/>
+    <!-- Whole middle -->
+    <div class="flex flex-col md:flex-row md:items-center justify-center
+        bg-gradient-to-l from-slate-900 to-mexicanred-500"
+    >
+        <!-- Left image -->
+        <div class="border-4">
+            <NuxtImg src="/home/home-left.jpg"/>
         </div>
-        <!-- bg-gradient-to-t from-mexicanred-500 to-slate-900 -->
+
+        <!-- Company desc -->
         <div class="m-2 bg-black text-left p-3">
             <p class="bg-black text-xl text-slate-400 text-justify 
                 p-4 border-2 border-slate-800"
@@ -34,8 +38,9 @@
             </p>
         </div>
 
-        <div class="md:mb-96 md:ml-auto">
-            <NuxtImg src="/red-laptop.jpg"/>
+        <!-- Right image -->
+        <div class="border-4 m-4">
+            <NuxtImg src="/home/home-right.jpg"/>
         </div>
     </div>
     
