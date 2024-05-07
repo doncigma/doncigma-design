@@ -1,14 +1,14 @@
 <template>
-  <header class="bg-slate-50 dark:bg-black">
+  <header class="bg-black">
     
     <!-- Whole Nav bar element
     items-center px-4 pb-4 pt-6 md:flex-row  md:space-x-12 md:px-12 -->
     <div class="container mx-auto flex flex-row items-center 
-        justify-center md:justify-normal space-x-3 px-2 pb-2 pt-2"
+        justify-center space-x-3 px-2 pb-2 pt-2"
     >
       <!-- Logo words -->
       <div class="md:w-1/2">
-        <div class="text-sm md:text-2xl font-extrabold md:w-fit md:text-left">
+        <div class="text-md md:text-2xl font-extrabold">
           <span class="text-mexicanred-500 md:hover:text-mexicanred-300">Doncigma</span>
           <span class="text-slate-400">Design</span>
         </div>
