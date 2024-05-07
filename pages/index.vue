@@ -6,16 +6,16 @@
     </div>
 
     <!-- Whole middle -->
-    <div class="flex flex-col md:flex-row md:items-center justify-center
-        bg-gradient-to-l from-slate-900 to-mexicanred-500"
+    <div class="flex flex-col md:flex-row justify-between
+        bg-gradient-to-t from-slate-900 to-mexicanred-500"
     >
         <!-- Left image -->
-        <div class="border-4">
+        <div class="bg-blue-500 border-4 m-4">
             <NuxtImg src="/home/home-left.jpg"/>
         </div>
 
         <!-- Company desc -->
-        <div class="m-2 bg-black text-left p-3">
+        <div class=" bg-black m-2 p-3 text-left md:w-2/5">
             <p class="bg-black text-xl text-slate-400 text-justify 
                 p-4 border-2 border-slate-800"
             >
@@ -39,7 +39,7 @@
         </div>
 
         <!-- Right image -->
-        <div class="border-4 m-4">
+        <div class="bg-blue-500 border-4 m-4">
             <NuxtImg src="/home/home-right.jpg"/>
         </div>
     </div>
