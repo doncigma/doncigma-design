@@ -1,5 +1,5 @@
 <template>
-  <!-- Resume imgs -->
+  <!-- Resume images -->
   <div class="flex flex-col items-center justify-center">
     <div>
       <NuxtImg src="/resume/resume1.jpg"/>

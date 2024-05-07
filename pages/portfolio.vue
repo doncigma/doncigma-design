@@ -1,26 +1,39 @@
 <template>
     <div>
-      <div class="container">
-        <section>
-          <h2>Portfolio</h2>
-          <p>Insert your general about me content here.</p>
-        </section>
-        
-        <section>
-          <h2>Skills</h2>
-          <ul>
-            <li>Skill 1</li>
-            <li>Skill 2</li>
-            <li>Skill 3</li>
-            <!-- Add more skills as needed -->
-          </ul>
-        </section>
+        <!-- Whole project list -->
+        <div class="flex flex-col">
+            <!-- Project 1 -->
+            <div>
+                <div>
+                    <NuxtImg></NuxtImg>
+                </div>
 
-        <section>
-          <h2>Hobbies</h2>
-          <p>Insert your hobbies here.</p>
-        </section>
-      </div>
+                <div>
+                    <P>C++ evolution simulation!</P>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div>
+                <div>
+                    <NuxtImg></NuxtImg>
+                </div>
+
+                <div>
+                    <P>Something</P>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div>
+                <div>
+                    <NuxtImg></NuxtImg>
+                </div>
+
+                <div>
+                    <P>This very website!</P>
+                </div>
+            </div>
+        </div>
     </div>
-  </template>
-  
+</template>
