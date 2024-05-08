@@ -3,10 +3,9 @@ import { NuxtLink } from '#build/components';
 <template>
     <header class="bg-black">
     
-        <!-- Whole Nav bar element
-        items-center px-4 pb-4 pt-6 md:flex-row  md:space-x-12 md:px-12 -->
+        <!-- Whole Nav -->
         <div class="container mx-auto flex flex-row items-center 
-            justify-center space-x-3 px-2 pb-2 pt-2"
+            justify-between px-2 pb-2 pt-2"
         >
             <!-- Logo words -->
             <div class="md:w-1/2">
@@ -23,12 +22,17 @@ import { NuxtLink } from '#build/components';
 
             <!-- About me link -->
             <div class="text-slate-400 md:w-1/2">
-                <NuxtLink class="text-xs md:text-base font-semibold" to="/about">About Me</NuxtLink>
+                <NuxtLink class="text-xs md:text-base font-semibold" to="/about">About</NuxtLink>
             </div>
             
             <!-- Portfolio link -->
             <div class="text-slate-400 md:w-1/2">
                 <NuxtLink class="text-xs md:text-base font-semibold" to="/portfolio">Portfolio</NuxtLink>
+            </div>
+
+            <!-- Contact link -->
+            <div class="text-slate-400 md:w-1/2">
+                <NuxtLink class="text-xs md:text-base font-semibold" to="/contact">Contact</NuxtLink>
             </div>
         
             <!-- Resume link -->

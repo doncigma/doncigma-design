@@ -1,26 +1,3 @@
-<!-- <template> 
-    <div>
-        
-        <div class="flex flex-col">
-            
-            <div>
-                quick credentials
-            </div>
-
-            
-            <div>
-                C++ for 2 years etc
-            </div>
-
-            
-            <div>
-                backpacking, cars, warhammer, reading, poetry etc
-            </div>
-        </div>
-    </div>
-</template>
--->
-
 <template>
     <div>
         <!-- Myself image -->
