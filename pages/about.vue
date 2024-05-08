@@ -20,8 +20,7 @@
         <div class="hidden md:flex overflow-hidden w-1/5">
             <NuxtImg src="/doncigma-logo.jpg" class="w-full"/>
         </div>
-
-        <!-- About me description -->
+        
         <div class="bg-black m-2 p-3 text-left md:w-2/5">
             <p class="bg-black text-md text-slate-400 text-justify p-4 
                 border-2 border-slate-800"
