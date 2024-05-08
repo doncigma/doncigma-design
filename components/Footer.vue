@@ -23,13 +23,14 @@ import { NuxtLink } from '#build/components';
         
         <!-- Contacts -->
         <div class="w-full text-center text-slate-400 md:w-1/5 md:text-left">
-          <div class="text-sm font-semibold pb-6">Resources</div>
+          <div class="text-sm font-semibold pb-6">Contacts</div>
           <ul class="text-xs space-y-4">
-            <li>
-              <a>Email: ejdylan1029@gmail.com</a>
+            <li class="underline decoration-transparent underline-offset-4 transition hover:decoration-slate-700">
+              <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=ejdylan1029@gmail.com" 
+            target="_blank">ejdylan1029@gmail.com</a>
             </li>
             <li>
-              <a>Mobile: (425) 381-9344</a>
+              <a>(425) 381-9344</a>
             </li>
             <li class="underline decoration-transparent underline-offset-4 transition hover:decoration-slate-700">
               <NuxtLink to="https://www.linkedin.com/in/elijah-johnson-27b82a232/" target="_blank">
