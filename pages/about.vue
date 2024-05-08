@@ -1,6 +1,6 @@
 <template>
-    <div class="flex flex-row justify-between">
-        <div class="overflow-hidden">
+    <div class="flex flex-col md:flex-row">
+        <div class="hidden md:flex overflow-hidden">
             <NuxtImg src="about/street-lights.jpg" class="w-full"/>
         </div>
 
@@ -8,17 +8,16 @@
             <NuxtImg src="about/myself.jpg" class="w-full"/>
         </div>
 
-        <div class="overflow-hidden">
+        <div class="hidden md:flex overflow-hidden">
             <NuxtImg src="about/the-stang.jpg" class="w-full"/>
         </div>
     </div>
         
-        
-    <!-- Middle section -->
+    <!-- Desc section -->
     <div class="flex justify-evenly items-center p-4
         bg-gradient-to-t from-slate-900 to-mexicanred-500"
     >   
-        <div class="overflow-hidden w-1/5">
+        <div class="hidden md:flex overflow-hidden w-1/5">
             <NuxtImg src="/doncigma-logo.jpg" class="w-full"/>
         </div>
 
@@ -47,7 +46,7 @@
             </p>
         </div>
 
-        <div class="overflow-hidden w-1/5">
+        <div class="hidden md:flex overflow-hidden w-1/5">
             <NuxtImg src="/doncigma-logo.jpg" class="w-full"/>
         </div>
     </div>
