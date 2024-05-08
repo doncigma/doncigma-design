@@ -7,7 +7,7 @@
 
     <!-- Whole middle -->
     <div class="flex justify-center bg-gradient-to-t from-slate-900 to-mexicanred-500">
-        <div class="flex flex-col md:w-1/2">
+        <div class="md:w-1/2">
             <!-- Left image -->
             <div class="overflow-hidden m-4 border-4 border-slate-300">
                 <NuxtImg src="home/ai-laptop.jpg" class="w-full"/>
@@ -15,7 +15,7 @@
 
             <!-- Company desc -->
             <div class=" bg-black m-4 p-4">
-                <p class="bg-black w-full text-lg md:text-xl text-slate-400 
+                <p class="bg-black text-lg md:text-xl text-slate-400 
                     text-justify p-4 border-2 border-slate-800"
                 >
                     <span class="text-mexicanred-500">Doncigma</span>
