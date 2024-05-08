@@ -69,7 +69,7 @@
             
                 Let's work together to showcase the best of your brand and 
                 bring your ideas to the digital world. 
-                <NuxtLink to="/contact" class="underline">Reach out to me</NuxtLink>
+                <NuxtLink to="/contact" class="underline" target="_blank">Reach out to me</NuxtLink>
                 to discuss your project and how we can collaborate to achieve 
                 your goals.
             

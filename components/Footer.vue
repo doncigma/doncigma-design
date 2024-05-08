@@ -32,8 +32,9 @@ import { NuxtLink } from '#build/components';
               <a>Mobile: (425) 381-9344</a>
             </li>
             <li class="underline decoration-transparent underline-offset-4 transition hover:decoration-slate-700">
-              <NuxtLink to="https://www.linkedin.com/in/elijah-johnson-27b82a232/">
-                My LinkedIn</NuxtLink>
+              <NuxtLink to="https://www.linkedin.com/in/elijah-johnson-27b82a232/" target="_blank">
+                My LinkedIn
+              </NuxtLink>
             </li>
           </ul>
         </div>

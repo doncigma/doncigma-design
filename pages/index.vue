@@ -10,7 +10,7 @@
         <div class="flex flex-col md:w-1/2">
             <!-- Left image -->
             <div class="overflow-hidden m-4 border-4 border-slate-300">
-                <NuxtImg src="/home/home-left.jpg" class="w-full"/>
+                <NuxtImg src="home/home-left.jpg" class="w-full"/>
             </div>
 
             <!-- Company desc -->
@@ -39,7 +39,7 @@
 
             <!-- Right image -->
             <div class="overflow-hidden m-4 border-4 border-slate-300">
-                <NuxtImg src="/home/home-right.jpg" class="w-full"/>
+                <NuxtImg src="home/home-right.jpg" class="w-full"/>
             </div>
         </div>
     </div>
