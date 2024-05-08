@@ -18,7 +18,15 @@ content: [],
                950: '#000000'
             },
          },
+         spacing: {
+            '112': '28rem',
+            '128': '32rem',
+            '144': '36rem',
+            'fuckinmassive': '96rem'
+         }
       },
    },
-   plugins: [],
+   plugins: [
+      require('daisyui'),
+   ],
 }

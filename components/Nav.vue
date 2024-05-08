@@ -1,3 +1,5 @@
+
+import { NuxtLink } from '#build/components';
 <template>
     <header class="bg-black">
     
@@ -16,22 +18,22 @@
         
             <!-- Index link -->
             <div class="text-slate-400 md:w-1/2">
-                <nuxt-link class="text-xs md:text-base font-semibold" to="/">Home</nuxt-link>
+                <NuxtLink class="text-xs md:text-base font-semibold" to="/">Home</NuxtLink>
             </div>
 
             <!-- About me link -->
             <div class="text-slate-400 md:w-1/2">
-                <nuxt-link class="text-xs md:text-base font-semibold" to="/about">About Me</nuxt-link>
+                <NuxtLink class="text-xs md:text-base font-semibold" to="/about">About Me</NuxtLink>
             </div>
             
             <!-- Portfolio link -->
             <div class="text-slate-400 md:w-1/2">
-                <nuxt-link class="text-xs md:text-base font-semibold" to="/portfolio">Portfolio</nuxt-link>
+                <NuxtLink class="text-xs md:text-base font-semibold" to="/portfolio">Portfolio</NuxtLink>
             </div>
         
             <!-- Resume link -->
             <div class="text-slate-400 md:w-1/2">
-                <nuxt-link class="text-xs md:text-base font-semibold" to="/resume">Resume</nuxt-link>
+                <NuxtLink class="text-xs md:text-base font-semibold" to="/resume">Resume</NuxtLink>
             </div>
         </div>
     
