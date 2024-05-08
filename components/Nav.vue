@@ -1,8 +1,7 @@
 
 import { NuxtLink } from '#build/components';
 <template>
-    <header class="bg-black">
-    
+    <header class="bg-black">    
         <!-- Whole Nav -->
         <div class="container mx-auto flex flex-row items-center 
             justify-between px-2 pb-2 pt-2"
