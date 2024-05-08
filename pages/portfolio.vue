@@ -95,7 +95,8 @@
             <p class="text-sm md:text-xl text-justify">
                 I am currently working on an evolution simulation in C++. 
                 I was inspired to do this while watching a Youtube video on
-                it.
+                it. I really enjoy working in C++ so this is more of a 
+                pleasure project.
             </p>
         </div>
 

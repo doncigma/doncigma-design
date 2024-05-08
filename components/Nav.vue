@@ -28,15 +28,15 @@ import { NuxtLink } from '#build/components';
             <div class="text-slate-400 md:w-1/2">
                 <NuxtLink class="text-xs md:text-base font-semibold" to="/portfolio">Portfolio</NuxtLink>
             </div>
-
-            <!-- Contact link -->
-            <div class="text-slate-400 md:w-1/2">
-                <NuxtLink class="text-xs md:text-base font-semibold" to="/contact">Contact</NuxtLink>
-            </div>
         
             <!-- Resume link -->
             <div class="text-slate-400 md:w-1/2">
                 <NuxtLink class="text-xs md:text-base font-semibold" to="/resume">Resume</NuxtLink>
+            </div>
+            
+            <!-- Contact link -->
+            <div class="text-slate-400 md:w-1/2">
+                <NuxtLink class="text-xs md:text-base font-semibold" to="/contact">Contact</NuxtLink>
             </div>
         </div>
     
